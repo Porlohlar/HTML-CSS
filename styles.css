@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: Ebrima, Times, serif;
+}
+
+/* Header Section */
+header{
+    width:100%;
+    background-image:url('images/10.jpg');
+    background-repeat:none;
+    background-size:cover;
+    background-position:center;
+
+}
+header nav{
+    padding: 20px 20px;
+}
+header nav > div{
+    display:flex;
+    justify-content:space-between;
+    color:white;
+    font-weight:bold;
+}
+
+header nav div > h1{
+    font-size: 15px;
+}
+
+header nav div > a{
+    font-size: 15px;
+    background-color:tomato;
+    padding:2px 10px;
+    border-radius:20px;
+    border:none;
+}
+
+header nav div > a:hover{
+    background-color:white;
+    color:tomato;
+}
+
+header .header-banner{
+    padding-bottom:20px;
+}
+header .header-banner div{
+    margin:50px auto;
+    width:50vw;
+    text-align:left;
+    color:white;
+}
+header .header-banner div button{
+    font-size: 15px;
+    background-color:rgb(126, 145, 206);
+    padding:5px 20px;
+    border-radius:20px;
+    font-weight:bold;
+    color:white;  
+    border:none; 
+}
+
+header .header-banner div button{
+    font-size: 15px;
+    background-color:rgb(20, 98, 112);
+    padding:5px 20px;
+    border-radius:20px;
+    font-weight:bold;
+    color:white;  
+    border:none; 
+}
+header .header-banner div button:hover{
+   color:rgb(20, 98, 112);
+   background-color:white; 
+}
+.margin-bottom{
+    margin-bottom:20px;
+}
+
+
+/* Section 2 */
+.second-section{
+    width:100%;
+    overflow:hidden;
+    padding-top:40px;
+}
+.second-section > div{
+    width:75vw;
+    margin: 0 auto;
+    text-align:center;
+}
+
+.second-section > div ul{
+    list-style:none;
+    display:flex;
+    justify-content:space-evenly;
+    width:75%;
+    margin:0 auto;
+}
+.second-section > div ul li{
+    display:block;
+    padding-bottom:50px;
+    padding-top:30px;
+}
+.second-section > div ul li a{
+    font-size: 15px;
+    padding:5px 20px;
+    border-radius:20px;
+    font-weight:bold;
+    border:1px solid rgb(20, 98, 112); 
+    color:rgb(20, 98, 112);
+    background-color:white;
+}
+
+.second-section > div ul li a:hover{
+    background-color:rgb(20, 98, 112);
+    color:white; 
+}
+
+.second-section > div  h1{
+    font-size:30px;
+    margin-bottom:20px;
+}
+.second-section > div  div{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin-top:10px;
+}
+.second-section > div  div img{
+    width:24%;
+    margin-bottom:15px;
+}
+
